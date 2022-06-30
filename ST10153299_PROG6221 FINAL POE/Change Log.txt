@@ -1,0 +1,17 @@
+************************************
+           CHANGE LOG
+************************************
+
+Author - T Pillay
+Email - thileshanpillay@gmail.com
+Student No - ST10153299
+
+************************************
+
+Changes Made To Task 2
+
+- Upgraded from a console application to a GUI
+- Added an additional class for savings
+- Added user manual for program
+
+************************************

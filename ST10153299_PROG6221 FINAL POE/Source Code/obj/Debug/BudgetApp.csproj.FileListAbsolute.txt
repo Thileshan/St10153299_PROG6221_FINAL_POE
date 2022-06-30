@@ -1,0 +1,54 @@
+C:\Users\Thileshan\source\repos\BudgetApp\bin\Debug\BudgetApp.exe.config
+C:\Users\Thileshan\source\repos\BudgetApp\bin\Debug\BudgetApp.exe
+C:\Users\Thileshan\source\repos\BudgetApp\bin\Debug\BudgetApp.pdb
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp.csproj.AssemblyReference.cache
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\MainWindow.g.cs
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\App.g.cs
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp_MarkupCompile.cache
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp_MarkupCompile.lref
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\MainWindow.baml
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp.g.resources
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp.Properties.Resources.resources
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp.csproj.GenerateResource.cache
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp.csproj.CoreCompileInputs.cache
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp.exe
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\BudgetApp.pdb
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\Budget.g.cs
+C:\Users\Thileshan\source\repos\BudgetApp\obj\Debug\Budget.baml
+C:\Users\27614\Documents\not imp\BudgetApp\bin\Debug\BudgetApp.exe.config
+C:\Users\27614\Documents\not imp\BudgetApp\bin\Debug\BudgetApp.exe
+C:\Users\27614\Documents\not imp\BudgetApp\bin\Debug\BudgetApp.pdb
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp.csproj.AssemblyReference.cache
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\Budget.g.cs
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\MainWindow.g.cs
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\App.g.cs
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp_MarkupCompile.cache
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp_MarkupCompile.lref
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\Budget.baml
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\MainWindow.baml
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp.g.resources
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp.Properties.Resources.resources
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp.csproj.GenerateResource.cache
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp.csproj.CoreCompileInputs.cache
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp.exe
+C:\Users\27614\Documents\not imp\BudgetApp\obj\Debug\BudgetApp.pdb
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp.csproj.AssemblyReference.cache
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\Budget.g.cs
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\MainWindow.g.cs
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\App.g.cs
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp_MarkupCompile.cache
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp_MarkupCompile.lref
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp.exe
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp.pdb
+C:\Users\Thileshan\Desktop\BudgetApp\bin\Debug\BudgetApp.exe.config
+C:\Users\Thileshan\Desktop\BudgetApp\bin\Debug\BudgetApp.exe
+C:\Users\Thileshan\Desktop\BudgetApp\bin\Debug\BudgetApp.pdb
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\Budget.baml
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\MainWindow.baml
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp.g.resources
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp.Properties.Resources.resources
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp.csproj.GenerateResource.cache
+C:\Users\Thileshan\Desktop\BudgetApp\obj\Debug\BudgetApp.csproj.CoreCompileInputs.cache

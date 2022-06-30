@@ -1,0 +1,135 @@
+﻿<Window x:Class="BudgetApp.Budget"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BudgetApp"
+        mc:Ignorable="d"
+        Title="Budget" Height="600" Width="700">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="517*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl x:Name="MyTabControl" Grid.ColumnSpan="2">
+            <TabItem x:Name="tab1" Header="Inc/Exp" FontSize="15">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="37*"/>
+                        <ColumnDefinition Width="310*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/Images/1129018.jpg" />
+
+                    </Grid.Background>
+
+                    <Label Content="INCOME:" HorizontalAlignment="Left" Margin="180,33,0,0" VerticalAlignment="Top" Width="140" FontSize="25" FontFamily="Arial Black" Background="Transparent" Visibility="Visible" Foreground="LightGreen" Grid.Column="1"/>
+                    <Label Content="ENTER YOUR GROSS INCOME AMOUNT:" HorizontalAlignment="Left" Margin="22,107,0,0" VerticalAlignment="Top" Width="281" FontSize="15" FontWeight="Normal" Background="Transparent" Visibility="Visible" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbInc" HorizontalAlignment="Left" Margin="325,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" Height="30" FontSize="15" Grid.Column="1" TextAlignment="Right"/>
+                    <Label Content="EXPENSES:" HorizontalAlignment="Left" Margin="180,179,0,0" VerticalAlignment="Top" Width="169" FontFamily="Arial Black" FontSize="25" Background="Transparent" Visibility="Visible" Foreground="DarkRed" Grid.Column="1"/>
+                    <Label Content="ENTER THE AMOUNTS FOR THE FOLLOWING EXPENSES:" HorizontalAlignment="Left" Margin="22,223,0,0" VerticalAlignment="Top" Width="385" FontSize="15" Background="Transparent" Visibility="Visible" Foreground="White" Grid.ColumnSpan="2"/>
+                    <Label Content="TAX:" HorizontalAlignment="Left" Margin="22,281,0,0" VerticalAlignment="Top" Width="49" FontSize="15" RenderTransformOrigin="0.431,-0.341" Background="Transparent" Visibility="Visible" Foreground="White"/>
+                    <TextBox x:Name="tbTax" HorizontalAlignment="Left" Margin="88,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Height="30" FontSize="15" Grid.Column="1"/>
+                    <Label Content="GROCERIES:" HorizontalAlignment="Left" Margin="17,348,0,0" VerticalAlignment="Top" FontSize="15" Background="Transparent" Visibility="Visible" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbGroceries" HorizontalAlignment="Left" Margin="88,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" Height="30" FontSize="15" Grid.Column="1"/>
+                    <Label Content="WATER/LIGHTS:" HorizontalAlignment="Left" Margin="17,412,0,0" VerticalAlignment="Top" FontSize="15" Width="114" Background="Transparent" Visibility="Visible" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbRates" HorizontalAlignment="Left" Margin="88,412,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" Height="30" FontSize="15" Grid.Column="1"/>
+                    <Label Content="TRAVEL COSTS:" HorizontalAlignment="Left" Margin="292,281,0,0" VerticalAlignment="Top" Width="114" FontSize="15" Background="Transparent" Visibility="Visible" Foreground="White" Grid.Column="1"/>
+                    <Label Content="PHONE BILLS:" HorizontalAlignment="Left" Margin="292,348,0,0" VerticalAlignment="Top" Width="101" FontSize="15" Background="Transparent" Visibility="Visible" Foreground="White" Grid.Column="1"/>
+                    <Label Content="OTHER EXPENSES:" HorizontalAlignment="Left" Margin="292,416,0,0" VerticalAlignment="Top" Width="132" FontSize="15" Background="Transparent" Visibility="Visible" Foreground="White" Grid.Column="1"/>
+                    <TextBox x:Name="tbTravCost" HorizontalAlignment="Left" Margin="436,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Height="30" FontSize="15" Grid.Column="1"/>
+                    <TextBox x:Name="tbPhone" HorizontalAlignment="Left" Margin="436,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Height="30" FontSize="15" Grid.Column="1"/>
+                    <TextBox x:Name="tbOthExp" HorizontalAlignment="Left" Margin="436,412,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Height="30" FontSize="15" Grid.Column="1"/>
+                    <Button x:Name="btnSub1" Content="SUBMIT" HorizontalAlignment="Left" Margin="213,467,0,0" VerticalAlignment="Top" Height="27" Width="120" FontSize="15" Grid.Column="1" Click="btnSub1_Click"/>
+                    <Button x:Name="btn1" Grid.Column="1" Content="EXIT" HorizontalAlignment="Left" Margin="553,10,0,0" VerticalAlignment="Top" Click="btn1_Click" Background="Red"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab2" Header="Acc" Visibility="Hidden" Height="22" Margin="-2,0,-2,0" VerticalAlignment="Bottom" FontSize="15">
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="59*"/>
+                        <ColumnDefinition Width="288*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/Images/1129018.jpg" />
+                    </Grid.Background>
+                    <Label Content="ACCOMODATION:" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="251" FontSize="25" FontFamily="Arial Black" Background="Transparent" Visibility="Visible" Foreground="LightGreen" Grid.ColumnSpan="2"/>
+                    <RadioButton x:Name="rbRenting" Content="RENTING" HorizontalAlignment="Left" Margin="21,128,0,0" VerticalAlignment="Top" Height="21" Width="100" FontSize="15" RenderTransformOrigin="0.52,1.976" GroupName="1" Checked="rbRenting_Checked" Background="White" Foreground="White" Grid.ColumnSpan="2"/>
+                    <Label Content="SELECT ONE OF THE OPTIONS(Required):" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" FontSize="15" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <RadioButton x:Name="rbBuying" Content="BUYING A PROPERTY" HorizontalAlignment="Left" Margin="241,128,0,0" VerticalAlignment="Top" Height="21" Width="166" FontSize="15" GroupName="1" Checked="rbBuying_Checked_1" Foreground="White" Grid.Column="1"/>
+                    <Label x:Name="lblRentAmnt" Content="RENT AMOUNT:" HorizontalAlignment="Left" Margin="10,162,0,0" VerticalAlignment="Top" Width="130" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbRentAmnt" HorizontalAlignment="Left" Margin="38,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" Height="30" FontSize="15" Visibility="Hidden" Grid.Column="1"/>
+                    <Label x:Name="lblpropPrice" Content="PROPERTY PRICE:" HorizontalAlignment="Left" Margin="241,162,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.Column="1"/>
+                    <TextBox x:Name="tbpropPrice" HorizontalAlignment="Left" Margin="391,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="30" FontSize="15" Visibility="Hidden" Grid.Column="1"/>
+                    <Label x:Name="lblDepAmnt" Content="DEPOSIT AMOUNT:" HorizontalAlignment="Left" Margin="241,222,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.Column="1"/>
+                    <TextBox x:Name="tbDepAmnt" HorizontalAlignment="Left" Margin="391,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="30" FontSize="15" Visibility="Hidden" Grid.Column="1"/>
+                    <Label x:Name="lblIntRate" Content="INTEREST RATE:" HorizontalAlignment="Left" Margin="241,292,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.Column="1"/>
+                    <TextBox x:Name="tbIntRate" HorizontalAlignment="Left" Margin="391,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" FontSize="15" Height="30" Visibility="Hidden" Grid.Column="1"/>
+                    <Label x:Name="lblTime" Content="TIME PERIOD:" HorizontalAlignment="Left" Margin="241,364,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.Column="1"/>
+                    <ComboBox x:Name="cmbxTime" HorizontalAlignment="Left" Margin="391,368,0,0" VerticalAlignment="Top" Width="141" Height="26" Visibility="Hidden" Grid.Column="1">
+                        <ComboBoxItem Content="240 MONTHS"/>
+                        <ComboBoxItem Content="360 MONTHS"/>
+                    </ComboBox>
+                    <Button x:Name="btnSub2" Content="SUBMIT" HorizontalAlignment="Left" Margin="157,444,0,0" VerticalAlignment="Top" Height="27" Width="120" FontSize="15" Click="btnSub2_Click" Grid.Column="1"/>
+                    <Button x:Name="btn2" Grid.Column="1" Content="EXIT" HorizontalAlignment="Left" Margin="505,15,0,0" VerticalAlignment="Top" Click="btn2_Click" Background="Red"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab3" Header="Car" Visibility="Hidden" Height="22" Margin="-2,0,-2,0" VerticalAlignment="Center" FontSize="15">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="23*"/>
+                        <ColumnDefinition Width="671*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/Images/1129018.jpg" />
+                    </Grid.Background>
+                    <Label Content="BUYING A VEHICLE(optional):" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Arial Black" Background="Transparent" Foreground="LightBlue" Grid.ColumnSpan="2"/>
+                    <RadioButton x:Name="rbYes" Content="YES" HorizontalAlignment="Left" Margin="14,102,0,0" VerticalAlignment="Top" FontSize="15" Width="66" Height="26" Checked="rbYes_Checked_2" GroupName="2" Background="White" Foreground="White" Grid.Column="1"/>
+                    <RadioButton x:Name="rbNo" Content="NO" HorizontalAlignment="Left" Margin="459,100,0,0" VerticalAlignment="Top" FontSize="15" Height="23" Width="55" GroupName="2" Checked="rbNo_Checked_3" Background="White" Foreground="White" Grid.Column="1"/>
+                    <Label x:Name="lblMake" Content="MAKE/MODEL:" HorizontalAlignment="Left" Margin="10,156,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbMake" HorizontalAlignment="Left" Margin="243,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="30" FontSize="15" Visibility="Hidden" Grid.Column="1"/>
+                    <Label x:Name="lblPrice" Content="PURCHASE PRICE:" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbPrice" HorizontalAlignment="Left" Margin="243,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="15" RenderTransformOrigin="0.395,0.509" Height="30" Visibility="Hidden" Grid.Column="1"/>
+                    <Label x:Name="lblAmnt" Content="DEPOSIT AMOUNT:" HorizontalAlignment="Left" Margin="10,288,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbAmnt" HorizontalAlignment="Left" Margin="243,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="15" Height="30" Visibility="Hidden" Grid.Column="1"/>
+                    <Label x:Name="lblRate" Content="INTEREST RATE(without %):" HorizontalAlignment="Left" Margin="10,357,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbRate" HorizontalAlignment="Left" Margin="243,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="15" Height="30" Visibility="Hidden" Grid.Column="1"/>
+                    <Label x:Name="lblPrem" Content="INSURANCE PREMIUM AMOUNT:" HorizontalAlignment="Left" Margin="10,413,0,0" VerticalAlignment="Top" FontSize="15" Visibility="Hidden" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbPrem" HorizontalAlignment="Left" Margin="243,413,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" FontSize="15" Height="30" Visibility="Hidden" Grid.Column="1"/>
+                    <Button x:Name="btnSub3" Content="SUBMIT" HorizontalAlignment="Left" Margin="264,467,0,0" VerticalAlignment="Top" Height="27" Width="120" FontSize="15" Click="btnSub3_Click" Grid.Column="1"/>
+                    <Button x:Name="btn3" Grid.Column="1" Content="EXIT" HorizontalAlignment="Left" Margin="608,10,0,0" VerticalAlignment="Top" Width="40" Click="btn3_Click" Background="Red"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab4" Header="Sav" Visibility="Hidden" Height="22" Margin="-2,0,-13,0" VerticalAlignment="Center" FontSize="15">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="103*"/>
+                        <ColumnDefinition Width="591*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background>
+                        <ImageBrush ImageSource="/Images/1129018.jpg" />
+                    </Grid.Background>
+                    <Label Content="SAVING GOAL" HorizontalAlignment="Left" Margin="35,39,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Arial Black" Background="Transparent" Foreground="Green" Grid.ColumnSpan="2"/>
+                    <Label Content="REASON FOR SAVING:" HorizontalAlignment="Left" Margin="35,128,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbReason" HorizontalAlignment="Left" Margin="195,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" Height="30" Grid.Column="1"/>
+                    <Label Content="AMOUNT YOU WANT TO SAVE:" HorizontalAlignment="Left" Margin="35,212,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbSave" HorizontalAlignment="Left" Margin="195,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" Height="30" Grid.Column="1"/>
+                    <Label Content="INTEREST RATE(%):" HorizontalAlignment="Left" Margin="35,308,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbintRate" HorizontalAlignment="Left" Margin="195,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" Height="30" Grid.Column="1"/>
+                    <Label Content="TIME PERIOD IN MONTHS:" HorizontalAlignment="Left" Margin="35,405,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="White" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="tbMon" HorizontalAlignment="Left" Margin="195,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" RenderTransformOrigin="0.476,-0.054" Height="30" Grid.Column="1"/>
+                    <Button x:Name="btnSav" Content="Submit" HorizontalAlignment="Left" Margin="195,492,0,0" VerticalAlignment="Top" Width="98" Height="29" Click="btnSav_Click" Grid.Column="1"/>
+                    <Button x:Name="btnPrint" Content="Print Budget" HorizontalAlignment="Left" Margin="457,492,0,0" VerticalAlignment="Top" Click="btnPrint_Click" Grid.Column="1" Height="29" Width="92"/>
+                    <Button x:Name="btn4" Content="EXIT" HorizontalAlignment="Left" Margin="520,21,0,0" VerticalAlignment="Top" Click="btn4_Click" Grid.Column="1" Background="Red"/>
+
+                </Grid>
+            </TabItem>
+            
+
+
+        </TabControl>
+
+    </Grid>
+</Window>
